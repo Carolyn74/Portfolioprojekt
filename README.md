@@ -12,7 +12,7 @@ Datensatz: Superstore Sales Dataset
 Zeitraum: 2014–2017
 
 ### Datenaufbereitung
-Vor der Analyse wurden die Daten in Python geladen und aufbereitet.
+Vor der Analyse wurden die Datensatz mit Python und Pandas geladen und aufbereitet.
 
 Folgende Schritte wurden durchgeführt:
 
@@ -21,10 +21,9 @@ Folgende Schritte wurden durchgeführt:
 - Bereinigung und Aufbereitung der Daten
 - Anpassung und Konvertierung von Datentypen
 - Berechnung zusätzlicher Kennzahlen:
- - Bruttoumsatz (Gross Sales)
- - Rabattbetrag (Discount Amount)
- - Rabattquote (Discount Rate)
- - Gewinnmarge (Profit Margin)
+  - Bruttoumsatz (Gross Sales)
+  - Rabattbetrag (Discount Amount)
+  - Gewinnmarge % (Profit Margin %)
 - Erstellung und Speicherung eines bereinigten Datensatzes als Grundlage für die weiteren Analysen
 
 ### Verwendete Technologien

@@ -1,0 +1,23 @@
+model Model
+	culture: de-DE
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: de-DE
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Superstore"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Superstore
+ref table Measure
+ref table DateTableTemplate_83ba0ffb-fecd-445c-a1f8-9a8a0385772f
+ref table LocalDateTable_43d06338-76c8-4866-8668-8e7ea6f361ee
+ref table LocalDateTable_771cf85f-fdd3-4005-8caf-40acc5739a27
+
+ref cultureInfo de-DE
+

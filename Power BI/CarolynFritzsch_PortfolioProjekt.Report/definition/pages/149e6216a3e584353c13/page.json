@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "149e6216a3e584353c13",
+  "displayName": "Jahrlich",
+  "displayOption": "FitToPage",
+  "height": 1280,
+  "width": 1930,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#D2CCCA'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "displayArea": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "type": "Tooltip",
+  "visualInteractions": [
+    {
+      "source": "37372670aeda73eb5061",
+      "target": "77d66e6276747ea56520",
+      "type": "NoFilter"
+    },
+    {
+      "source": "77d66e6276747ea56520",
+      "target": "d83b809829a6a1c74d58",
+      "type": "DataFilter"
+    },
+    {
+      "source": "37372670aeda73eb5061",
+      "target": "d83b809829a6a1c74d58",
+      "type": "DataFilter"
+    },
+    {
+      "source": "37372670aeda73eb5061",
+      "target": "a678afe6ede06ce7ca20",
+      "type": "DataFilter"
+    },
+    {
+      "source": "37372670aeda73eb5061",
+      "target": "52315f8d9169136875db",
+      "type": "DataFilter"
+    },
+    {
+      "source": "37372670aeda73eb5061",
+      "target": "c1c981ee1d1e147d0e67",
+      "type": "DataFilter"
+    }
+  ]
+}

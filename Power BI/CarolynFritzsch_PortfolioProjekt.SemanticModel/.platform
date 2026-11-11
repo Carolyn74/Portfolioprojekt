@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "CarolynFritzsch_PortfolioProjekt"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "cdd89e80-8088-43c3-9b59-cefdc015f438"
+  }
+}

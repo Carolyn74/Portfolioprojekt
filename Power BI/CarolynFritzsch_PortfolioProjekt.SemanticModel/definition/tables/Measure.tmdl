@@ -1,0 +1,114 @@
+table Measure
+	lineageTag: 8847c010-029d-47ec-939d-ca729859913f
+
+	measure GrossSales = SUMX(Superstore, DIVIDE(Superstore[net_sales], 1 - Superstore[discount]))
+		lineageTag: 58fc31b8-a28b-43c6-aa8a-15778ef0fad7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure DiscountValue = [GrossSales] - [NetSales]
+		lineageTag: 6053fd13-e937-44dd-a2c4-fb5f34130250
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure ProfitMargin = DIVIDE([Profit], [GrossSales])
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 3f17f6e1-ba5d-4155-9fbf-54177a584be1
+
+	measure Profit = SUM(Superstore[profit])
+		lineageTag: 4638fb56-d9a4-42f5-a9a5-cbe2846e4dd8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure NetSales = SUM(Superstore[net_sales])
+		lineageTag: 3911304e-881b-4019-a6c9-a324cb5f1f4a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure DiscountRate = DIVIDE([DiscountValue], [GrossSales])
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 84a312bf-248d-4d5d-9474-1d866a4bef68
+
+	measure %_changeInSales = VAR _CY = [GrossSales] VAR _LY = [LastYearSales] VAR _perc = DIVIDE(_CY - _LY, _LY) VAR _percformat = FORMAT(_perc, "+0.0%;-0.0%;0.0%") RETURN IF(ISBLANK(_LY), BLANK(), IF(_perc > 0, UNICHAR(129157) & " " & _percformat, UNICHAR(129158) & " " & _percformat))
+		lineageTag: 0ddd85cb-76c9-468a-a3f4-006961f6bfe2
+
+	measure LastYearSales = VAR CurrentYear = SELECTEDVALUE(Superstore[Year]) RETURN CALCULATE([GrossSales], FILTER(ALL(Superstore[Year]), Superstore[Year] = CurrentYear - 1 ))
+		lineageTag: aac27456-72f3-4429-84fb-1fa25f8a6c69
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure LastYearProfit =
+			VAR CurrentYear =
+			    SELECTEDVALUE(Superstore[Year])
+			
+			RETURN
+			    CALCULATE(
+			        [Profit],
+			        FILTER(
+			            ALL(Superstore[Year]),
+			            Superstore[Year] = CurrentYear - 1
+			        )
+			    )
+		lineageTag: 178022ab-a170-42b6-a326-b712932660d8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure %changeInProfit =
+			VAR _CY = [Profit]
+			VAR _LY = [LastYearProfit]
+			VAR _perc = DIVIDE(_CY - _LY, _LY)
+			VAR _percformat = FORMAT(_perc, "+0.0%;-0.0%;0.0%")
+			
+			RETURN
+			IF(
+			    ISBLANK(_LY),
+			    BLANK(),
+			    IF(
+			        _perc > 0,
+			        UNICHAR(129157) & " " & _percformat,
+			        UNICHAR(129158) & " " & _percformat
+			    )
+			)
+		lineageTag: 97461e92-c8f9-40d5-a4dd-e3482648bb66
+
+	measure SalesChangeColor =
+			VAR _CY = [GrossSales]
+			VAR _LY = [LastYearSales]
+			VAR _perc = DIVIDE(_CY - _LY, _LY)
+			
+			RETURN
+			IF(
+			    _perc > 0,
+			    "#2E7D32",   -- green
+			    "#D32F2F"    -- red
+			)
+		lineageTag: aa010b56-60ca-4164-ae84-b6b83431dcf8
+
+	measure ProfitChangeColor =
+			VAR _CY = [Profit]
+			VAR _LY = [LastYearProfit]
+			VAR _perc = DIVIDE(_CY - _LY, _LY)
+			
+			RETURN
+			IF(
+			    _perc > 0,
+			    "#2E7D32",   -- green
+			    "#D32F2F"    -- red
+			)
+		lineageTag: e301a127-2f39-4282-937d-965f7185e3a3
+
+	column Column
+		formatString: 0
+		lineageTag: a2d8c6c7-3b16-4f68-a7de-a0930c5748fc
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Measure = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 5d62e8dead324d079f06243b66215a48
+

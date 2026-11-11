@@ -1,0 +1,6016 @@
+cultureInfo de-DE
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "superstore": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "superstore": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "supermarket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hypermarket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.row_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "row_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "row id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "row_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "row": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "row identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "row identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "row identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "row credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "line id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.order_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "order_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.order_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "order_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "order moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "superstore.order_date.datumshierarchie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datumshierarchie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.order_date.jahr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie",
+			          "HierarchyLevel": "Jahr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jahr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date jahr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order moment jahr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "order period jahr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.order_date.quartal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie",
+			          "HierarchyLevel": "Quartal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quartal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date quartal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order moment quartal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "order period quartal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.order_date.monat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie",
+			          "HierarchyLevel": "Monat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date monat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order moment monat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "order period monat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.order_date.tag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "order_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie",
+			          "HierarchyLevel": "Tag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date tag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date tag": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order moment tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "order date identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "order date device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "date identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "order date label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "order date ticket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.ship_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "ship_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "ship moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ship period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "superstore.ship_date.datumshierarchie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "ship_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "datumshierarchie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.ship_date.jahr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "ship_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie",
+			          "HierarchyLevel": "Jahr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jahr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship date jahr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship moment jahr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "ship period jahr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.ship_date.quartal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "ship_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie",
+			          "HierarchyLevel": "Quartal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quartal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship date quartal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship moment quartal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "ship period quartal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.ship_date.monat": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "ship_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie",
+			          "HierarchyLevel": "Monat"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship date monat": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship moment monat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "ship period monat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.ship_date.tag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "VariationSource": "ship_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Datumshierarchie",
+			          "HierarchyLevel": "Tag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship date tag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date tag": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ship moment tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "ship period tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "ship date identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "ship date device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "date identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ship date label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ship date ticket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.ship_mode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "ship_mode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship mode": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship_mode": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mode": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ship manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ship method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ship genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ship style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ship mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ship approach": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ship type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.customer_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "customer_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.segment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "segment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "segment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "fragment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "slice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "city"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.state": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "state"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "state": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "territory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.product_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "product_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.sub_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "sub_category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sub category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sub_category": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sub classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sub class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sub group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sub type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sub grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sub kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.product_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "product_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.net_sale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "net_sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "net sale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "net_sales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "net auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "net transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "net deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "net trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "net vending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "net retailing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "net selling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.quantity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "quantity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.discount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "discount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "reduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "markdown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "concession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "deduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "rebate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.profit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "profit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "return": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "advantage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "benefit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "use": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "reward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "superstore.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "superstore.order_date_hierarchie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "Hierarchy": "order_date Hierarchie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "order_date hierarchie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "superstore.order_date_hierarchie.order_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Superstore",
+			          "Hierarchy": "order_date Hierarchie",
+			          "HierarchyLevel": "order_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "order date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "measure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measure.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "measure.gross_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "GrossSales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gross sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GrossSales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "gross sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "whole sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "sum sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Umsatz": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "measure.discount_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "DiscountValue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discount value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DiscountValue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "discount assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discount worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "discount price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "discount cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "discount charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measure.profit_margin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "ProfitMargin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profit margin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ProfitMargin": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "margin": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "profit boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profit perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profit periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "profit border": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit brim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit sideline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit edge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Gewinnmarge": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "measure.profit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "Profit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "return": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "advantage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "benefit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "use": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "reward": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "measure.net_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "NetSales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "net sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NetSales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "measure.discount_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "DiscountRate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discount rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DiscountRate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "discount degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discount amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "measure.entity__changeInSales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "%_changeInSales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%_changeInSales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage _changeinsale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct _changeinsale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "measure.last_year_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "LastYearSales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last year sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LastYearSales": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last year sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "year sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "last yr sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "yr sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "end year sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final year sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing year sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding year sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing year sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former year sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "measure.last_year_profit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "LastYearProfit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last year profit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LastYearProfit": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "year profit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last yr profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "yr profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "end year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latter year profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "measure.changeInProfit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "%changeInProfit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "%changeInProfit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage changeinprofit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct changeinprofit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "measure.sales_change_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "SalesChangeColor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sales change color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SalesChangeColor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "change color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sale change color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "sale change hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "change hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sale change tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "sale change shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "sale change dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "sale change paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "sale change pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "change tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "measure.profit_change_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Measure",
+			          "ConceptualProperty": "ProfitChangeColor"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profit change color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ProfitChangeColor": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "change color": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "profit change hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "change hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profit change tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "profit change shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "profit change dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "profit change paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "profit change pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "change tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "change shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "superstore_order_date_hierarchie_has_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date_hierarchie": {
+			          "Target": {
+			            "Entity": "superstore.order_date_hierarchie"
+			          }
+			        },
+			        "superstore.order_date_hierarchie.order_date": {
+			          "Target": {
+			            "Entity": "superstore.order_date_hierarchie.order_date"
+			          }
+			        }
+			      }
+			    },
+			    "superstore_ship_date_monat_has_superstore_ship_date_tag": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.ship_date.monat": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.monat"
+			          }
+			        },
+			        "superstore.ship_date.tag": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.tag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.monat"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "monats_have_tags"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.tag"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.monat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_monats"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.tag"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.ship_date.monat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_are_in_monats1"
+			        }
+			      ]
+			    },
+			    "superstore_ship_date_quartal_has_superstore_ship_date_monat": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.ship_date.quartal": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.quartal"
+			          }
+			        },
+			        "superstore.ship_date.monat": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.monat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.quartal"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.monat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quartals_have_monats"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.monat"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.quartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "monats_have_quartals"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.monat"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.ship_date.quartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "monats_are_in_quartals1"
+			        }
+			      ]
+			    },
+			    "superstore_ship_date_jahr_has_superstore_ship_date_quartal": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.ship_date.jahr": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.jahr"
+			          }
+			        },
+			        "superstore.ship_date.quartal": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.quartal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.jahr"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.quartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jahrs_have_quartals"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.quartal"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.jahr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quartals_have_jahrs"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.quartal"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.ship_date.jahr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quartals_are_in_jahrs1"
+			        }
+			      ]
+			    },
+			    "superstore_ship_date_datumshierarchie_has_superstore_ship_date_tag": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.ship_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.datumshierarchie"
+			          }
+			        },
+			        "superstore.ship_date.tag": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.tag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.datumshierarchie"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datumshierarchies_have_tags"
+			        }
+			      ]
+			    },
+			    "superstore_ship_date_datumshierarchie_has_superstore_ship_date_monat": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.ship_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.datumshierarchie"
+			          }
+			        },
+			        "superstore.ship_date.monat": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.monat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.datumshierarchie"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.monat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datumshierarchies_have_monats"
+			        }
+			      ]
+			    },
+			    "superstore_ship_date_datumshierarchie_has_superstore_ship_date_quartal": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.ship_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.datumshierarchie"
+			          }
+			        },
+			        "superstore.ship_date.quartal": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.quartal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.datumshierarchie"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.quartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datumshierarchies_have_quartals"
+			        }
+			      ]
+			    },
+			    "superstore_ship_date_datumshierarchie_has_superstore_ship_date_jahr": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.ship_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.datumshierarchie"
+			          }
+			        },
+			        "superstore.ship_date.jahr": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.jahr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date.datumshierarchie"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.jahr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datumshierarchies_have_jahrs"
+			        }
+			      ]
+			    },
+			    "superstore_ship_date_has_datumshierarchie": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.ship_date": {
+			          "Target": {
+			            "Entity": "superstore.ship_date"
+			          }
+			        },
+			        "superstore.ship_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.ship_date.datumshierarchie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.ship_date"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date.datumshierarchie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ship_dates_have_datumshierarchies"
+			        }
+			      ]
+			    },
+			    "superstore_order_date_monat_has_superstore_order_date_tag": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date.monat": {
+			          "Target": {
+			            "Entity": "superstore.order_date.monat"
+			          }
+			        },
+			        "superstore.order_date.tag": {
+			          "Target": {
+			            "Entity": "superstore.order_date.tag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.monat"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "monats_have_tags1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.tag"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.monat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_have_monats1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore.order_date.tag"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.order_date.monat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tags_are_in_monats"
+			        }
+			      ]
+			    },
+			    "superstore_order_date_quartal_has_superstore_order_date_monat": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date.quartal": {
+			          "Target": {
+			            "Entity": "superstore.order_date.quartal"
+			          }
+			        },
+			        "superstore.order_date.monat": {
+			          "Target": {
+			            "Entity": "superstore.order_date.monat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.quartal"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.monat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quartals_have_monats1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.monat"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.quartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "monats_have_quartals1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore.order_date.monat"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.order_date.quartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "monats_are_in_quartals"
+			        }
+			      ]
+			    },
+			    "superstore_order_date_jahr_has_superstore_order_date_quartal": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date.jahr": {
+			          "Target": {
+			            "Entity": "superstore.order_date.jahr"
+			          }
+			        },
+			        "superstore.order_date.quartal": {
+			          "Target": {
+			            "Entity": "superstore.order_date.quartal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.jahr"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.quartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jahrs_have_quartals1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.quartal"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.jahr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quartals_have_jahrs1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore.order_date.quartal"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.order_date.jahr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "quartals_are_in_jahrs"
+			        }
+			      ]
+			    },
+			    "superstore_order_date_datumshierarchie_has_superstore_order_date_tag": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.order_date.datumshierarchie"
+			          }
+			        },
+			        "superstore.order_date.tag": {
+			          "Target": {
+			            "Entity": "superstore.order_date.tag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.datumshierarchie"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.tag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datumshierarchies_have_tags1"
+			        }
+			      ]
+			    },
+			    "superstore_order_date_datumshierarchie_has_superstore_order_date_monat": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.order_date.datumshierarchie"
+			          }
+			        },
+			        "superstore.order_date.monat": {
+			          "Target": {
+			            "Entity": "superstore.order_date.monat"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.datumshierarchie"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.monat"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datumshierarchies_have_monats1"
+			        }
+			      ]
+			    },
+			    "superstore_order_date_datumshierarchie_has_superstore_order_date_quartal": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.order_date.datumshierarchie"
+			          }
+			        },
+			        "superstore.order_date.quartal": {
+			          "Target": {
+			            "Entity": "superstore.order_date.quartal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.datumshierarchie"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.quartal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datumshierarchies_have_quartals1"
+			        }
+			      ]
+			    },
+			    "superstore_order_date_datumshierarchie_has_superstore_order_date_jahr": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.order_date.datumshierarchie"
+			          }
+			        },
+			        "superstore.order_date.jahr": {
+			          "Target": {
+			            "Entity": "superstore.order_date.jahr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date.datumshierarchie"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.jahr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "datumshierarchies_have_jahrs1"
+			        }
+			      ]
+			    },
+			    "superstore_order_date_has_datumshierarchie": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore.order_date": {
+			          "Target": {
+			            "Entity": "superstore.order_date"
+			          }
+			        },
+			        "superstore.order_date.datumshierarchie": {
+			          "Target": {
+			            "Entity": "superstore.order_date.datumshierarchie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore.order_date"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date.datumshierarchie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_dates_have_datumshierarchies"
+			        }
+			      ]
+			    },
+			    "measure_has_kennzahl": {
+			      "Binding": {
+			        "ConceptualEntity": "Measure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measure": {
+			          "Target": {
+			            "Entity": "measure"
+			          }
+			        },
+			        "measure.kennzahl": {
+			          "Target": {
+			            "Entity": "measure.kennzahl"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measure"
+			            },
+			            "Object": {
+			              "Role": "measure.kennzahl"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_have_kennzahl"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_profit_change_color": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.profit_change_color": {
+			          "Target": {
+			            "Entity": "measure.profit_change_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.profit_change_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_profit_change_color"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_sales_change_color": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.sales_change_color": {
+			          "Target": {
+			            "Entity": "measure.sales_change_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.sales_change_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_sales_change_color"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_changeInProfit": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.changeInProfit": {
+			          "Target": {
+			            "Entity": "measure.changeInProfit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.changeInProfit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_changeInProfit"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_last_year_profit": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.last_year_profit": {
+			          "Target": {
+			            "Entity": "measure.last_year_profit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.last_year_profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_last_year_profit"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_last_year_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.last_year_sales": {
+			          "Target": {
+			            "Entity": "measure.last_year_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.last_year_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_last_year_sales"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_entity__changeInSales": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.entity__changeInSales": {
+			          "Target": {
+			            "Entity": "measure.entity__changeInSales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.entity__changeInSales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have__changeInSales"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_discount_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.discount_rate": {
+			          "Target": {
+			            "Entity": "measure.discount_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.discount_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_discount_rate"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_net_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.net_sales": {
+			          "Target": {
+			            "Entity": "measure.net_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.net_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_net_sales"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_profit": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.profit": {
+			          "Target": {
+			            "Entity": "measure.profit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_profit"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_profit_margin": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.profit_margin": {
+			          "Target": {
+			            "Entity": "measure.profit_margin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.profit_margin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_profit_margin"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_discount_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.discount_value": {
+			          "Target": {
+			            "Entity": "measure.discount_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.discount_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_discount_value"
+			        }
+			      ]
+			    },
+			    "superstore_has_measure_gross_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "measure.gross_sales": {
+			          "Target": {
+			            "Entity": "measure.gross_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "measure.gross_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_gross_sales"
+			        }
+			      ]
+			    },
+			    "measure_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "Measure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measure": {
+			          "Target": {
+			            "Entity": "measure"
+			          }
+			        },
+			        "measure.column": {
+			          "Target": {
+			            "Entity": "measure.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measure"
+			            },
+			            "Object": {
+			              "Role": "measure.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_have_columns"
+			        }
+			      ]
+			    },
+			    "superstore_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.year": {
+			          "Target": {
+			            "Entity": "superstore.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_years"
+			        }
+			      ]
+			    },
+			    "superstore_has_profit": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.profit": {
+			          "Target": {
+			            "Entity": "superstore.profit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_profits"
+			        }
+			      ]
+			    },
+			    "superstore_has_discount": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.discount": {
+			          "Target": {
+			            "Entity": "superstore.discount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.discount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_discounts"
+			        }
+			      ]
+			    },
+			    "superstore_has_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.quantity": {
+			          "Target": {
+			            "Entity": "superstore.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_quantities"
+			        }
+			      ]
+			    },
+			    "superstore_has_net_sale": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.net_sale": {
+			          "Target": {
+			            "Entity": "superstore.net_sale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.net_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_net_sales1"
+			        }
+			      ]
+			    },
+			    "superstore_has_product_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.product_name": {
+			          "Target": {
+			            "Entity": "superstore.product_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.product_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_product_names"
+			        }
+			      ]
+			    },
+			    "superstore_has_sub_category": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.sub_category": {
+			          "Target": {
+			            "Entity": "superstore.sub_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.sub_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_sub_categories"
+			        }
+			      ]
+			    },
+			    "superstore_has_category": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.category": {
+			          "Target": {
+			            "Entity": "superstore.category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_categories"
+			        }
+			      ]
+			    },
+			    "superstore_has_product_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.product_id": {
+			          "Target": {
+			            "Entity": "superstore.product_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.product_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_product_ids"
+			        }
+			      ]
+			    },
+			    "superstore_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.region": {
+			          "Target": {
+			            "Entity": "superstore.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_regions"
+			        }
+			      ]
+			    },
+			    "superstore_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.state": {
+			          "Target": {
+			            "Entity": "superstore.state"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_states"
+			        }
+			      ]
+			    },
+			    "superstore_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.city": {
+			          "Target": {
+			            "Entity": "superstore.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_cities"
+			        }
+			      ]
+			    },
+			    "superstore_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.country": {
+			          "Target": {
+			            "Entity": "superstore.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_countries"
+			        }
+			      ]
+			    },
+			    "superstore_has_segment": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.segment": {
+			          "Target": {
+			            "Entity": "superstore.segment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.segment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_segments"
+			        }
+			      ]
+			    },
+			    "superstore_has_customer_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.customer_id": {
+			          "Target": {
+			            "Entity": "superstore.customer_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.customer_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_customer_ids"
+			        }
+			      ]
+			    },
+			    "superstore_has_ship_mode": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.ship_mode": {
+			          "Target": {
+			            "Entity": "superstore.ship_mode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_mode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_ship_modes"
+			        }
+			      ]
+			    },
+			    "superstore_has_ship_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.ship_date": {
+			          "Target": {
+			            "Entity": "superstore.ship_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.ship_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_ship_dates"
+			        }
+			      ]
+			    },
+			    "superstore_has_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.order_date": {
+			          "Target": {
+			            "Entity": "superstore.order_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_order_dates"
+			        }
+			      ]
+			    },
+			    "superstore_has_order_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.order_id": {
+			          "Target": {
+			            "Entity": "superstore.order_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.order_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_order_ids"
+			        }
+			      ]
+			    },
+			    "superstore_has_row_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.row_id": {
+			          "Target": {
+			            "Entity": "superstore.row_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Object": {
+			              "Role": "superstore.row_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_have_row_ids"
+			        }
+			      ]
+			    },
+			    "superstore_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.region": {
+			          "Target": {
+			            "Entity": "superstore.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "superstore.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_are_in_regions"
+			        }
+			      ]
+			    },
+			    "superstore_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.state": {
+			          "Target": {
+			            "Entity": "superstore.state"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "superstore.state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_are_in_states"
+			        }
+			      ]
+			    },
+			    "superstore_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.city": {
+			          "Target": {
+			            "Entity": "superstore.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "superstore.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_are_in_cities"
+			        }
+			      ]
+			    },
+			    "superstore_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.country": {
+			          "Target": {
+			            "Entity": "superstore.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "superstore.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "superstore"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "superstores_are_in_countries"
+			        }
+			      ]
+			    },
+			    "superstore_is_shipped_on_ship_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.ship_date": {
+			          "Target": {
+			            "Entity": "superstore.ship_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "superstore.ship_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "ship": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "superstores_are_shipped_on_ship_dates"
+			        }
+			      ]
+			    },
+			    "superstore_is_ordered_on_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Superstore"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "superstore": {
+			          "Target": {
+			            "Entity": "superstore"
+			          }
+			        },
+			        "superstore.order_date": {
+			          "Target": {
+			            "Entity": "superstore.order_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "superstore.order_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "order": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "superstore"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "superstores_are_ordered_on_order_dates"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

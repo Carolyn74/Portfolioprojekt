@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "055f83c2782586d922e9",
   "position": {
-    "x": 88.754180602006684,
-    "y": 77.458193979933114,
+    "x": 88.274428274428274,
+    "y": 77.574497574497585,
     "z": 0,
-    "height": 88.754180602006684,
-    "width": 1350.6772575250836,
-    "tabOrder": 9000
+    "height": 56.174636174636177,
+    "width": 1215.7796257796258,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "textbox",
@@ -26,8 +26,9 @@
               {
                 "textRuns": [
                   {
-                    "value": "Entwicklung von Umsatz und Gewinn (2014–2017)",
+                    "value": "Entwicklung von Umsatz und Profit (2014–2017)",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontFamily": "Segoe UI",
                       "fontSize": "18pt"
                     }

@@ -10,7 +10,7 @@
     "tabOrder": 1000
   },
   "visual": {
-    "visualType": "lineClusteredColumnComboChart",
+    "visualType": "lineChart",
     "query": {
       "queryState": {
         "Category": {
@@ -42,12 +42,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "GrossSales"
+                  "Property": "ProfitMargin"
                 }
               },
-              "queryRef": "Measure.GrossSales",
-              "nativeQueryRef": "Umsatz",
-              "displayName": "Umsatz"
+              "queryRef": "Measure.ProfitMargin",
+              "nativeQueryRef": "Profitmarge",
+              "displayName": "Profitmarge"
             },
             {
               "field": {
@@ -57,26 +57,12 @@
                       "Entity": "Measure"
                     }
                   },
-                  "Property": "DiscountValue"
+                  "Property": "DiscountRate"
                 }
               },
-              "queryRef": "Measure.DiscountValue",
-              "nativeQueryRef": "Rabattbetrag",
-              "displayName": "Rabattbetrag"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure"
-                    }
-                  },
-                  "Property": "Profit"
-                }
-              },
-              "queryRef": "Measure.Profit",
-              "nativeQueryRef": "Profit"
+              "queryRef": "Measure.DiscountRate",
+              "nativeQueryRef": "Rabatte",
+              "displayName": "Rabatte"
             }
           ]
         }
@@ -91,7 +77,7 @@
                     "Entity": "Measure"
                   }
                 },
-                "Property": "GrossSales"
+                "Property": "ProfitMargin"
               }
             },
             "direction": "Descending"
@@ -141,7 +127,7 @@
             "end": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "0D"
                 }
               }
             },
@@ -149,6 +135,18 @@
               "expr": {
                 "Literal": {
                   "Value": "'Scalar'"
+                }
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
@@ -168,7 +166,7 @@
             "labelDisplayUnits": {
               "expr": {
                 "Literal": {
-                  "Value": "1000D"
+                  "Value": "0D"
                 }
               }
             }
@@ -189,6 +187,18 @@
               "expr": {
                 "Literal": {
                   "Value": "24D"
+                }
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
@@ -224,6 +234,27 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.ProfitMargin"
           }
         }
       ]
@@ -280,5 +311,51 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "4d4d3f388cc557de0742",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Superstore"
+              }
+            },
+            "Property": "Year"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "88f666ff021da9dc37b7",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "ProfitMargin"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "e73a5eec082ae9b993b7",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure"
+              }
+            },
+            "Property": "DiscountRate"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

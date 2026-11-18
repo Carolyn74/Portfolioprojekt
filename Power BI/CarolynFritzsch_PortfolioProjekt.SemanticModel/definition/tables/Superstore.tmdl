@@ -76,6 +76,7 @@ table Superstore
 	column country
 		dataType: string
 		lineageTag: f5165d48-e730-4b37-bd5e-b46fdb8747c9
+		dataCategory: County
 		summarizeBy: none
 		sourceColumn: country
 
@@ -84,6 +85,7 @@ table Superstore
 	column city
 		dataType: string
 		lineageTag: b62ffb02-deeb-4e5a-a706-d7c69d941124
+		dataCategory: City
 		summarizeBy: none
 		sourceColumn: city
 
@@ -92,6 +94,7 @@ table Superstore
 	column state
 		dataType: string
 		lineageTag: 0d0dc5f9-d2e8-49b2-9f06-423ed2984e64
+		dataCategory: StateOrProvince
 		summarizeBy: none
 		sourceColumn: state
 
@@ -100,6 +103,7 @@ table Superstore
 	column region
 		dataType: string
 		lineageTag: 642f63f1-8ab7-42c4-be75-9f3b35e75da7
+		dataCategory: Uncategorized
 		summarizeBy: none
 		sourceColumn: region
 
@@ -178,6 +182,25 @@ table Superstore
 		formatString: 0
 		lineageTag: 74acbbf0-fa98-480c-b1dd-6c963f51d1da
 		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column State_text = Superstore[state]
+		lineageTag: 1dabeefe-24d5-4831-8ecd-4d2959f9c6f9
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region_text = Superstore[region]
+		lineageTag: fbfaefcc-9ede-4559-befe-0d13f4a4a624
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location = Superstore[state] & ", USA"
+		lineageTag: 0ec28a04-6f23-4dd5-804c-b4be4b3eb98b
+		dataCategory: StateOrProvince
+		summarizeBy: none
 
 		annotation SummarizationSetBy = Automatic
 

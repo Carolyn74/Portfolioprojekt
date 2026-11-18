@@ -1,0 +1,311 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "fc479fa5c8c6167620d0",
+  "position": {
+    "x": 57.181328545780964,
+    "y": 1094.6140035906642,
+    "z": 1000,
+    "height": 240.16157989228006,
+    "width": 970.4488330341112,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Superstore"
+                    }
+                  },
+                  "Property": "segment"
+                }
+              },
+              "queryRef": "Superstore.segment",
+              "nativeQueryRef": "segment",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "GrossSales"
+                }
+              },
+              "queryRef": "Measure.GrossSales",
+              "nativeQueryRef": "Umsatz",
+              "displayName": "Umsatz"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "DiscountValue"
+                }
+              },
+              "queryRef": "Measure.DiscountValue",
+              "nativeQueryRef": "Rabattbetrag",
+              "displayName": "Rabattbetrag"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "Profit"
+                }
+              },
+              "queryRef": "Measure.Profit",
+              "nativeQueryRef": "Profit"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "ProfitMargin"
+                }
+              },
+              "queryRef": "Measure.ProfitMargin",
+              "nativeQueryRef": "Profitmarge",
+              "displayName": "Profitmarge"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "DiscountRate"
+                }
+              },
+              "queryRef": "Measure.DiscountRate",
+              "nativeQueryRef": "Rabatt %",
+              "displayName": "Rabatt %"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "144.38636165965883D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.ProfitMargin"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "153.7773800605997D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Profit"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "194.88510004009933D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Superstore.segment"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "144.47758874025934D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.DiscountRate"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "bandedRowHeaders": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "layout": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Compact'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "grid": [
+        {
+          "properties": {
+            "gridHorizontal": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "gridHorizontalColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "rowHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTotals": [
+        {
+          "properties": {
+            "applyToHeaders": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "Column"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

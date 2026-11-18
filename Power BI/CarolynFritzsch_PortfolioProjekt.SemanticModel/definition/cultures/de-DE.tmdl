@@ -1317,6 +1317,12 @@ cultureInfo de-DE
 			          }
 			        },
 			        {
+			          "county": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
 			          "nation": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -1336,7 +1342,8 @@ cultureInfo de-DE
 			            "Weight": 0.736
 			          }
 			        }
-			      ]
+			      ],
+			      "SemanticType": "Location"
 			    },
 			    "superstore.city": {
 			      "Definition": {
@@ -1402,7 +1409,8 @@ cultureInfo de-DE
 			            "Weight": 0.714
 			          }
 			        }
-			      ]
+			      ],
+			      "SemanticType": "Location"
 			    },
 			    "superstore.state": {
 			      "Definition": {
@@ -1416,6 +1424,12 @@ cultureInfo de-DE
 			        {
 			          "state": {
 			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "state or province": {
+			            "State": "Generated",
+			            "Weight": 0.7
 			          }
 			        },
 			        {
@@ -1468,7 +1482,8 @@ cultureInfo de-DE
 			            "Weight": 0.714
 			          }
 			        }
-			      ]
+			      ],
+			      "SemanticType": "Location"
 			    },
 			    "superstore.region": {
 			      "Definition": {
@@ -3020,16 +3035,6 @@ cultureInfo de-DE
 			            },
 			            "Weight": 0.9
 			          }
-			        },
-			        {
-			          "Gewinnmarge": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
 			        }
 			      ]
 			    },
@@ -3306,6 +3311,16 @@ cultureInfo de-DE
 			          }
 			        },
 			        {
+			          "Rabatte": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
 			          "Rabatt %": {
 			            "State": "Suggested",
 			            "Source": {
@@ -3349,6 +3364,16 @@ cultureInfo de-DE
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "Δ Umsatz (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -3649,6 +3674,16 @@ cultureInfo de-DE
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Δ Profit (%)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]

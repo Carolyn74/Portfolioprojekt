@@ -97,6 +97,16 @@ table Measure
 			)
 		lineageTag: e301a127-2f39-4282-937d-965f7185e3a3
 
+	measure Verlustklasse =
+			
+			SWITCH(
+			    TRUE(),
+			    [Profit] <= -4000, "Hohe negative Verluste",
+			    [Profit] <= -2000, "Mittlere negative Verluste",
+			    "Geringe negative Verluste"
+			)
+		lineageTag: 8904c221-b4c1-48c1-a744-7360b76c6a6d
+
 	column Column
 		formatString: 0
 		lineageTag: a2d8c6c7-3b16-4f68-a7de-a0930c5748fc

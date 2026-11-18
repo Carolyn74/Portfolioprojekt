@@ -30,14 +30,7 @@
               {
                 "textRuns": [
                   {
-                    "value": ""
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": "Die Gewinnmarge verbesserte sich von 7,96 % auf 10,21 %, was auf eine insgesamt höhere Profitabilität hindeutet. ",
+                    "value": "ie Gewinnmarge verbesserte sich von 7,96 % auf 10,21 %, was auf eine insgesamt höhere Profitabilität hindeutet. ",
                     "textStyle": {
                       "fontFamily": "Segoe UI",
                       "fontSize": "18pt"
@@ -60,20 +53,6 @@
                       "fontFamily": "Segoe UI",
                       "fontSize": "18pt"
                     }
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": ""
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": ""
                   }
                 ]
               },

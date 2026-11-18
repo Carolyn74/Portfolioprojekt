@@ -2,15 +2,15 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "5b308ab51e200c7de29b",
   "position": {
-    "x": 73.106060606060609,
-    "y": 176.91666666666666,
+    "x": 72.764811490125666,
+    "y": 176.7145421903052,
     "z": 1000,
-    "height": 564.37878787878788,
-    "width": 1038.1060606060607,
+    "height": 564.79353680430881,
+    "width": 1089.7396768402155,
     "tabOrder": 1000
   },
   "visual": {
-    "visualType": "lineChart",
+    "visualType": "lineClusteredColumnComboChart",
     "query": {
       "queryState": {
         "Category": {
@@ -53,6 +53,21 @@
         },
         "Y2": {
           "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
+                  "Property": "DiscountRate"
+                }
+              },
+              "queryRef": "Measure.DiscountRate",
+              "nativeQueryRef": "Rabatte",
+              "displayName": "Rabatte"
+            },
             {
               "field": {
                 "Measure": {
@@ -141,6 +156,18 @@
                   "Value": "'Scalar'"
                 }
               }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -161,17 +188,42 @@
                   "Value": "1000D"
                 }
               }
-            }
-          }
-        }
-      ],
-      "y2Axis": [
-        {
-          "properties": {
+            },
+            "secShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
             "secFontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "14D"
+                  "Value": "18D"
+                }
+              }
+            },
+            "secLabelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
@@ -192,6 +244,18 @@
               "expr": {
                 "Literal": {
                   "Value": "24D"
+                }
+              }
+            },
+            "labelColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }

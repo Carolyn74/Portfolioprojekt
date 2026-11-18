@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "30e728e2164209085d14",
   "position": {
-    "x": 73.106060606060609,
-    "y": 815.86363636363637,
+    "x": 72.764811490125666,
+    "y": 816.00538599640925,
     "z": 3000,
-    "height": 273.41666666666669,
-    "width": 750.06818181818187,
+    "height": 273.73429084380609,
+    "width": 944.21005385996409,
     "tabOrder": 3000
   },
   "visual": {
@@ -57,11 +57,26 @@
                       "Entity": "Measure"
                     }
                   },
+                  "Property": "Profit"
+                }
+              },
+              "queryRef": "Measure.Profit",
+              "nativeQueryRef": "Profit"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure"
+                    }
+                  },
                   "Property": "ProfitMargin"
                 }
               },
               "queryRef": "Measure.ProfitMargin",
-              "nativeQueryRef": "ProfitMargin"
+              "nativeQueryRef": "Profitmarge",
+              "displayName": "Profitmarge"
             },
             {
               "field": {
@@ -75,7 +90,8 @@
                 }
               },
               "queryRef": "Measure.%_changeInSales",
-              "nativeQueryRef": "%_changeInSales"
+              "nativeQueryRef": "Δ Umsatz (%)",
+              "displayName": "Δ Umsatz (%)"
             },
             {
               "field": {
@@ -89,7 +105,8 @@
                 }
               },
               "queryRef": "Measure.%changeInProfit",
-              "nativeQueryRef": "%changeInProfit"
+              "nativeQueryRef": "Δ Profit (%)",
+              "displayName": "Δ Profit (%)"
             }
           ]
         }
@@ -119,7 +136,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "86.62698746265315D"
+                  "Value": "110.98692799014209D"
                 }
               }
             }
@@ -169,6 +186,20 @@
           "selector": {
             "metadata": "Measure.ProfitMargin"
           }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "153.7773800605997D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure.Profit"
+          }
         }
       ],
       "columnHeaders": [
@@ -185,6 +216,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
                 }
               }
             }

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "6c43aaf77668a61ec83e",
   "position": {
-    "x": 240.00000000000003,
-    "y": 815.71428571428578,
+    "x": 251.43755615453728,
+    "y": 794.19586702605568,
     "z": 4001,
-    "height": 381.42857142857144,
-    "width": 705.71428571428578,
+    "height": 464.72596585804132,
+    "width": 922.51572327044028,
     "tabOrder": 4001
   },
   "visual": {
@@ -125,7 +125,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "153.00001693070095D"
+                  "Value": "184.21295201059405D"
                 }
               }
             }
@@ -153,7 +153,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "105.85715855531747D"
+                  "Value": "149.27243583798284D"
                 }
               }
             }
@@ -190,7 +190,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "105.85713893260154D"
+                  "Value": "138.85276616435826D"
                 }
               }
             }
@@ -227,7 +227,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "92.42856896809703D"
+                  "Value": "144.38333761344776D"
                 }
               }
             }
@@ -264,7 +264,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "104.42860521379349D"
+                  "Value": "133.78839524408383D"
                 }
               }
             }
@@ -322,7 +322,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "12D"
+                  "Value": "15D"
                 }
               }
             }
@@ -373,6 +373,13 @@
                       "Percent": 0
                     }
                   }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
                 }
               }
             }
@@ -430,6 +437,13 @@
                   "Value": "true"
                 }
               }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
             }
           }
         }
@@ -446,6 +460,13 @@
                       "Percent": 0
                     }
                   }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
                 }
               }
             }
